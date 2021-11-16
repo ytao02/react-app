@@ -15,6 +15,7 @@ main() {
   echo "🏗️ BUILD_ENV=${BUILD_ENV}"
 
   initialize_env
+
   install_yarn
 
  install_dependencies
