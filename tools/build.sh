@@ -21,6 +21,7 @@ main() {
 
   if [ "$BUILD_ENV" == "production" ]; then
     # build_ui
+    echo "it is production build"
   fi
 }
 
