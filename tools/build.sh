@@ -17,11 +17,11 @@ main() {
   initialize_env
 
   install_yarn
-
- install_dependencies
+  # install_dependencies
 
   if [ "$BUILD_ENV" == "production" ]; then
-    build_ui
+    # build_ui
+    echo "it is production build"
   fi
 }
 
