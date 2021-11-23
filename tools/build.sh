@@ -25,6 +25,7 @@ main() {
   fi
 }
 
+
 build_ui() {
   echo "🏗️ Building 💄..."
   yarn build
